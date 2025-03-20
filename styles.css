@@ -1,2 +1,71 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Center Align Heading */
+h1 {
+  text-align: center;
+  color: #007BFF;
+  margin-top: 20px;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 4px solid #007BFF;
+  width: 150px;
+  height: 150px;
+}
+
+/* LinkedIn Link Styling */
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  margin: 20px auto;
+  padding: 10px 20px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #333;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+}
+
+/* Skills Text */
+#skills p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Projects Unordered List */
+#projects ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#projects li {
+  margin: 5px 0;
+  font-size: 16px;
+}
